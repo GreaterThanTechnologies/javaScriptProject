@@ -1,0 +1,2 @@
+class JvPartner < ApplicationRecord
+end

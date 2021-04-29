@@ -1,0 +1,2 @@
+class JvPartnersController < ApplicationController
+end
