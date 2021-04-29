@@ -10,12 +10,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 202110429150353) do
+ActiveRecord::Schema.define(version: 202110429150354) do
 
   create_table "jointventure", force: :cascade do |t|
     t.string "name"
     t.string "objective"
-    t.integer "jv_id"
+    t.integer "partners_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
